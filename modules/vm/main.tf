@@ -92,7 +92,7 @@ resource "azurerm_network_interface" "IN_NIC" {
     private_ip_address_allocation = "Dynamic"
   }
 }
-
+#qwerty
 #Maquina virtual
 resource "azurerm_linux_virtual_machine" "IN_VM" {
   name                  = var.vm_name
